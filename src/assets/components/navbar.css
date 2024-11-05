@@ -1,0 +1,141 @@
+/* laptop and desktop */
+@media screen and (min-width: 900px) {
+    .nav_container{
+        height: 70px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        background-color: aqua;
+        
+    }
+
+    .logo{
+        flex: 0.2;
+       
+    }
+    .nav_links{
+        display: flex;
+        flex-direction: row;
+    }
+    .nav_btns{
+        display: flex;
+        flex: 0.4;
+        flex-direction: row;
+        justify-content: space-around;
+        
+    }
+    .nav_btn{
+       
+        flex: 1;
+        background: none;
+        border: none;
+    }
+    .dark_mode{
+        flex: 0.1;
+        width: 20px;
+    }
+    .dark_btn{
+        background: none;
+        border: 0;
+        
+    }
+    .hamburg_icon{
+        display: none;
+    }
+  }
+  /* tablet */
+  @media screen and (max-width: 900px) {
+    .nav_container{
+        height: 70px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        background-color: aqua;
+        
+    }
+
+    .logo{
+        flex: 0.3;
+       
+    }
+    .nav_links{
+        display: flex;
+        flex-direction: row;
+    }
+    .nav_btns{
+        display: flex;
+        flex: 0.4;
+        flex-direction: row;
+        justify-content: space-around;
+        
+    }
+    .nav_btn{
+       
+        flex: 0.2;
+        background: none;
+        border: none;
+    }
+    .dark_mode{
+        flex: 0.1;
+        width: 20px;
+    }
+    .dark_btn{
+        background: none;
+        border: 0;
+        
+    }
+    .hamburg_icon{
+        display: none;
+    }
+  }
+  /* mobile */
+  @media screen and (max-width: 600px) {
+    .nav_container{
+        height: 70px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: nowrap;
+        background-color: aqua;
+        font-size: 30px;
+        padding: 5px;
+    }
+
+    .logo{
+        flex: 0.4;
+       
+    }
+    .nav_links{
+        display: flex;
+        flex-direction: row;
+    }
+    .nav_btns{
+        display: none;
+        
+        
+    }
+    .nav_btn{
+       
+      
+        background: none;
+        border: none;
+    }
+    .dark_mode{
+        display: flex;
+        justify-content: space-between;
+        flex: 0.3;
+    }
+    .dark_btn{
+        background: none;
+        border: 0;
+        
+    }
+    .hamburg_icon{
+        display: flex;
+    }
+  }
