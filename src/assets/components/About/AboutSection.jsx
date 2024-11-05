@@ -21,8 +21,10 @@ const AboutSection = () => {
                
                <div className='educat'>education</div>
             </div>
-              
-            <div>paragraph</div>
+              <div className='para'>
+                 <div>Hi there! I'm Ajay, a passionate and enthusiastic full-stack software developer eager to make an impact in the tech industry. With a strong foundation in both front-end and back-end development, I thrive in dynamic environments where I can contribute innovative solutions to complex problems.</div>
+              </div>
+            
           </div>
       
     </div>

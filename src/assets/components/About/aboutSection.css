@@ -21,6 +21,7 @@
 .side_content1{
     height: 300px;
     width: 600px;
+    margin: 30px;
     /* background-color: blueviolet; */
 }
 .side_content2{
@@ -29,6 +30,9 @@
     align-items: center;
     justify-content: center;
     gap: 10px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+   
 }
 .about_image{
     height: 300px;
@@ -40,6 +44,7 @@
 }
 
 .newbie{
+
     height: 130px;
     width: 250px;
     border: 2px solid gray;
@@ -48,5 +53,12 @@
 .educat{
     height: 130px;
     width: 250px;
+    border: 2px solid gray;
+}
+
+.para{
+    display: flex;
+    margin: 10px;
+
     border: 2px solid gray;
 }
