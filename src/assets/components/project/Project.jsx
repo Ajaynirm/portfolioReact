@@ -5,7 +5,7 @@ const Project = () => {
     <>
 
   
-    <div>
+    <div id='projects'>
         <div>Browse My Recent</div>
         <div>Projects</div>
     </div>

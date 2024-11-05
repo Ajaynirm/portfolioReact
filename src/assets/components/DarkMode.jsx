@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
-import { MdOutlineDarkMode,MdDarkMode } from "react-icons/md";
-
+import { MdOutlineDarkMode} from "react-icons/md";
+import { IoIosSunny } from "react-icons/io";
 const DarkMode = () => {
 
-  const [darkmode,setdarkmode] = useState(false);
+  const [darkmode,setdarkmode] = useState(true);
     const changeMode = () => {
         setdarkmode(!darkmode);
         toggleDarkMode();
@@ -26,7 +26,7 @@ const DarkMode = () => {
   return (
     <>
         {
-             !darkmode ? <MdOutlineDarkMode onClick={changeMode} className='dark_icon'/> :  < MdDarkMode onClick={changeMode} className='dark_icon'/>
+             !darkmode ? <IoIosSunny onClick={changeMode} className='dark_icon'/> :  < MdOutlineDarkMode onClick={changeMode} className='dark_icon'/>
           
         }
           
