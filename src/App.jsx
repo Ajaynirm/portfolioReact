@@ -1,16 +1,22 @@
-
-// src/App.js
 import React from 'react';
 import './App.css';
 import NavBar from './assets/components/NavBar';
-import ProfileSection from './assets/components/ProfileSection';
 import Main from './assets/components/main/Main';
+import AboutSection from './assets/components/About/AboutSection';
+import Skill from './assets/components/skills/Skill'
+import Project from './assets/components/project/Project';
+import Contact from './assets/components/contact/Contact';
+
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <NavBar />
       <Main />
+      <AboutSection />
+      <Skill/>
+      <Project />
+      <Contact />
     </div>
   );
 }

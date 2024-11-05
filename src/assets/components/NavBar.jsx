@@ -31,25 +31,6 @@ const NavBar = () => {
       
        
       </div>
-     
-      <nav className="hamburger-nav">
-        <div className="logo">AJAY C</div>
-        <div className="hamburger-menu" onCdivck={toggleMenu}>
-          <div className="hamburger-icon">
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-        </div>
-        {isOpen && (
-          <div className="menu-divnks">
-            <div><a href="#about" onCdivck={toggleMenu}>About</a></div>
-            <div><a href="#experience" onCdivck={toggleMenu}>Experience</a></div>
-            <div><a href="#projects" onCdivck={toggleMenu}>Projects</a></div>
-            <div><a href="#contact" onCdivck={toggleMenu}>Contact</a></div>
-          </div>
-        )}
-      </nav>
 
     </>
   );

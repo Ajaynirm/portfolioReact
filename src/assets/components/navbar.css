@@ -1,5 +1,5 @@
 /* laptop and desktop */
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1000px) {
     .nav_container{
         height: 70px;
         display: flex;
@@ -7,19 +7,20 @@
         justify-content: center;
         align-items: center;
         flex-wrap: nowrap;
-        background-color: aqua;
         
     }
 
     .logo{
         flex: 0.2;
-       
+        font-size:xx-large;
     }
     .nav_links{
         display: flex;
         flex-direction: row;
+        
     }
     .nav_btns{
+        
         display: flex;
         flex: 0.4;
         flex-direction: row;
@@ -31,6 +32,7 @@
         flex: 1;
         background: none;
         border: none;
+        font-size:xx-large;
     }
     .dark_mode{
         flex: 0.1;
@@ -46,7 +48,7 @@
     }
   }
   /* tablet */
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 1000px) {
     .nav_container{
         height: 70px;
         display: flex;
@@ -54,13 +56,13 @@
         justify-content: center;
         align-items: center;
         flex-wrap: nowrap;
-        background-color: aqua;
+       
         
     }
 
     .logo{
         flex: 0.3;
-       
+        font-size:x-large;
     }
     .nav_links{
         display: flex;
@@ -74,7 +76,7 @@
         
     }
     .nav_btn{
-       
+        font-size:x-large;
         flex: 0.2;
         background: none;
         border: none;
@@ -121,7 +123,7 @@
     }
     .nav_btn{
        
-      
+        font-size:xx-large;
         background: none;
         border: none;
     }
