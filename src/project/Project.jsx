@@ -12,7 +12,7 @@ const Project = () => {
     </header>
 
     <div className='flex_container'>
-       <div className='head'>project 1</div>
+       <header>project 1</header>
 
        <div className='proj-container'>
           <div className='proj-image'>
@@ -20,7 +20,7 @@ const Project = () => {
           </div>
           <div className='sub-container'>
               <div>title</div>
-              <div>description</div>
+              <div>description</div>        
               <div>These fonts contain serifs — small decorative strokes that protrude from the letter's main body. Serif fonts are easier to read in physical, printed formats, as the serifs lead the viewer’s eyes from character to character.</div>
               <div>Why</div>
               <div>Tech stack</div>
