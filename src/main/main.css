@@ -98,6 +98,11 @@
     .icon:hover{
         height: 5rem;
     }
+    .prof-pic{
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+    }
 }
  /* tablet */
  @media screen and (max-width: 999px) and (min-width: 600px){
@@ -185,6 +190,11 @@
     }
     .icon:hover{
         height: 4rem;
+    }
+    .prof-pic{
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
     }
  }
 

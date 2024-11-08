@@ -82,6 +82,10 @@ header{
     gap: 5px;
 
 }   
+.proj-sample{
+    height: 400px;
+    width: 400px;
+}
 
 }
 @media screen and (max-width: 999px) and (min-width: 600px){
@@ -127,6 +131,7 @@ header{
         
         height: 500px;
         width: 600px;
+        margin: 20px;
         /* background-color: aqua; */
     }
     .proj-image{
@@ -139,7 +144,7 @@ header{
         display: flex;
         flex-direction: row;
         width: 500px;
-    
+        margin: 20px;
         justify-content: space-around;
     }
     .main-btn{
@@ -166,8 +171,11 @@ header{
         justify-content: space-around;
         margin: 10px;
         gap: 5px;
-
     }   
+    .proj-sample{
+        height: 280px;
+        width: 400px;
+    }
 }   
 
 @media screen and (max-width: 599px) {
@@ -215,20 +223,20 @@ header{
         /* flex-wrap: wrap; */
         
         height: 500px;
-        width: 400px;
+        width: 280px;
         /* background-color: aqua; */
         gap: 10px;
     }
     .proj-image{
         height: 250px;
-        width:350px;
+        width:280px;
         /* background-color: blanchedalmond; */
     }
     
     .live-demo{
         display: flex;
         flex-direction: row;
-        width: 400px;
+        width: 280px;
         /* background-color: #3498db; */
         justify-content: space-around;
     }
@@ -261,6 +269,6 @@ header{
     }   
     .proj-sample{
         height: 240px;
-        width: 350px;
+        width: 280px;
     }
 }

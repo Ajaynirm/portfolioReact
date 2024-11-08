@@ -6,7 +6,7 @@ const Main = () => {
   return (
     <>
         <div className="main">
-            <div className='pic'>
+            <div className=''>
                 <div>
                     <img src="./public/prof2.png" alt="pic" className='prof-pic'/>
                 </div>
