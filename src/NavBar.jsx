@@ -23,10 +23,16 @@ const NavBar = () => {
         </div>
          
       <div className='dark_mode'>
-      <DarkMode />
-      <div className='hamburg_icon'>
+        <div>
+            <DarkMode />
+        </div>
+     
+      {/* <div className='hamburg_icon'> */}
+      <div>
         <Hamburger />
       </div>
+        
+      {/* </div> */}
       </div>
       
        
