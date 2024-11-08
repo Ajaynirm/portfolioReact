@@ -3,10 +3,10 @@ import './skill.css'
 const Skill = () => {
   return (
     <>
-     <div className='title' id='experience'>
+     <header>
         <div>Explore My</div>
         <div>Experience</div>
-     </div>
+     </header>
 
      <div className='container'>
             <div className='sub_container'>frontend</div>
@@ -17,3 +17,5 @@ const Skill = () => {
 }
 
 export default Skill;
+
+

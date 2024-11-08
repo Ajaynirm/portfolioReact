@@ -1,18 +1,56 @@
-.project_container{
+.flex_container{
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 20px;
     border-radius: 20px;
     margin: 20px;
-    border: 5px solid gray;
+    /* border: 5px solid gray; */
 }
 
-.proj{
-    height: 600px;
-    width: 500px;
+.proj1{
+    display: flex;
+    flex-direction: row;
+    background-color: aqua;
+    height: 1000px;
     /* background-color: gray; */
     border-radius: 20px;
    margin: 20px;
-    border: 5px solid gray;
+   
+    /* border: 5px solid gray; */
+}
+header{
+    text-align: center;
+}
+.proj-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 20px;
+    justify-content: space-evenly;
+}
+
+.sub-container{
+    display: flex;
+    flex-direction: column;
+    
+    flex-wrap: wrap;
+    
+    height: 500px;
+    width: 600px;
+    /* background-color: aqua; */
+}
+.proj-image{
+    height: 500px;
+    width:500px;
+    /* background-color: blanchedalmond; */
+}
+
+.live-demo{
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+
+    justify-content: space-around;
 }

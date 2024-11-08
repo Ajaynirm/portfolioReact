@@ -1,9 +1,17 @@
 *{
   background-color: var(--body_background);
   color: var(--body_color);
-  
+  scroll-behavior: smooth;
 }
 .app{
   display: flex;
   flex-direction: column;
+  
 }
+
+.no-select{
+  user-select: none;
+}
+
+
+

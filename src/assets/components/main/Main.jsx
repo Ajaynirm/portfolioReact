@@ -1,6 +1,5 @@
 import React from 'react';
 import "./main.css";
-import profileImage from './images/aj.jpg';
 
 
 const Main = () => {
@@ -8,17 +7,20 @@ const Main = () => {
     <>
         <div className="main">
             <div className='pic'>
-                <img src={profileImage} alt="xyz" />
+                profile image
             </div>
             <div className='pic_title'>
                 <div>Hello I'm</div>
-                <div>Ajay</div>
+                <div className='name'>Ajay</div>
                 <div>Fullstack Developer</div>
-                <div>
-                    <button>Download cv</button>
-                    <button>contact info</button>
+                <div className='main-btn-container'>
+                    <button className='main-btn'>Download cv</button>
+                    <button className='main-btn'>contact info</button>
                 </div>
-                <div>click
+                <div className='icon-container'>
+                    <div>leetcode</div>
+                    <div>github</div>
+                    <div>linkedin</div>
                 </div>
             </div>
         </div>

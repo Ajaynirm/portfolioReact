@@ -1,15 +1,15 @@
 .main_container{
     display: flex;
     height: 650px;
+    width: 100%;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 30px;
-   /*  */
+    /* background-color: antiquewhite; */
    border-radius: 20px;
    margin: 20px;
-    border: 5px solid gray;
     
 }
 .title{
@@ -23,16 +23,18 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 300px;
-    width: 600px;
-    margin: 30px;
-    /* background-color: blueviolet; */
+    height: 600px;
+    width: 800px;
+    margin: 10px;
+    
 }
 .side_content2{
     display: flex;
+    width: 100%;
+    
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     gap: 10px;
     margin-top: 40px;
     margin-bottom: 30px;
@@ -41,33 +43,56 @@
 .about_image{
     height: 300px;
     width: 300px;
-    border-radius: 20px;
-    border: 5px solid gray;
-    /* background-color: yellow; */
-
+    border-radius: 50px;
 }
 
 .newbie{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 150px;
+    height: 130px;
     width: 280px;
     border-radius: 50px;
-    border: 2px solid gray;
+    border: 0.5px solid gray;
 }
 
 .educat{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     height: 150px;
-    width: 280px;
+    width: 350px;
     border-radius: 50px;
-    border: 2px solid gray;
+    border: 0.5px solid gray;
+    /* border: 2px solid gray; */
 }
 
 .para{
     display: flex;
-    width: 500px;
+    height:100px;
+    width: 600px;
     margin: 10px;
+    padding: 20px;
+    justify-content: center;
 
-    border: 2px solid gray;
+    /* border: 2px solid gray; */
+}
+
+header{
+    /* display: flex; */
+    padding: 30px;
+
+}
+
+.glow{
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s; /* for the Smoothness transition */
+}
+.glow:hover{
+    box-shadow: 0 0 40px #3498db;
 }

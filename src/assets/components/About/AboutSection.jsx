@@ -4,22 +4,26 @@ const AboutSection = () => {
   return (
     <>
      
-      <div>
+      <header>
         <div className='title' id='about'>Get to know more</div>
         <div className='sub_title'>About Me</div>
-     </div>
+     </header>
     <div className='main_container'>
        
-          <div className='about_image'>image</div>
+          {/* <div className='about_image'> */}
+            <img src="./macimg1.jpg" alt="x" height={"300px"} width={"300px"} className='about-image'/>
+          {/* </div> */}
           
           <div  className='side_content1'>
             <div className='side_content2'>
-              <div className='newbie'>
+              <div className='newbie glow'>
                  <div>Newbie</div>
-                 {/* <div>Fullstack Development</div> */}
+                 <div>Fullstack Development</div>
               </div>
-               <div className='newbie'>
-                   <div>education</div>
+               <div className='educat glow'>
+                   <div>
+                    Education</div>
+                   <div>B.E Computer Science and Engineering</div>
                </div>
               
             </div>

@@ -9,8 +9,13 @@ import Contact from './assets/components/contact/Contact';
 
 
 function App() {
+  const handleCopy = (e) => {
+    e.preventDefault();
+    alert('Dont try to steal my poor content 😂');
+  }
+
   return (
-    <div className="app">
+    <div className="app no-select" onCopy={handleCopy}>
       <NavBar />
       <Main />
       <AboutSection />
