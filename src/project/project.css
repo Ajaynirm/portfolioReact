@@ -7,13 +7,13 @@
     border-radius: 20px;
     margin: 20px;
     /* border: 5px solid gray; */
-    background-color: #3498db;
+    /* background-color: #3498db; */
 }
 
 .proj1{
     display: flex;
     flex-direction: row;
-    background-color: aqua;
+    /* background-color: aqua; */
     height: 1000px;
     /* background-color: gray; */
     border-radius: 20px;
@@ -68,6 +68,21 @@ header{
 .main-btn:hover{
     box-shadow: 0 0 60px #3498db;
 }
+.title{
+    font-size: x-large;
+   }
+   .sub_title{
+    font-size: xx-large;
+   }
+   .tech-gif{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px;
+    gap: 5px;
+
+}   
+
 }
 @media screen and (max-width: 999px) and (min-width: 600px){
     .flex_container{
@@ -78,13 +93,13 @@ header{
         border-radius: 20px;
         margin: 20px;
         /* border: 5px solid gray; */
-        background-color: #3498db;
+        /* background-color: #3498db; */
     }
     
     .proj1{
         display: flex;
         flex-direction: row;
-        background-color: aqua;
+        /* background-color: aqua; */
         height: 1000px;
         /* background-color: gray; */
         border-radius: 20px;
@@ -139,6 +154,20 @@ header{
     .main-btn:hover{
         box-shadow: 0 0 60px #3498db;
     }
+    .title{
+        font-size: x-large;
+       }
+       .sub_title{
+        font-size: xx-large;
+       }
+       .tech-gif{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 10px;
+        gap: 5px;
+
+    }   
 }   
 
 @media screen and (max-width: 599px) {
@@ -149,8 +178,8 @@ header{
         flex-wrap: wrap;
         gap: 10px;
         /* border-radius: 20px; */
-        margin: 10px;
-        /* border: 5px solid gray; */
+        margin: 25px;
+        border: 1px solid gray;
         /* background-color: #3498db; */
     }
     
@@ -167,7 +196,7 @@ header{
     }
     header{
         text-align: center;
-        width: 88%;
+        
     }
     .proj-container{
         display: flex;
@@ -214,5 +243,24 @@ header{
     }
     .main-btn:hover{
         box-shadow: 0 0 60px #3498db;
+    }
+    .title{
+        font-size: x-large;
+       }
+       .sub_title{
+        font-size: xx-large;
+       }
+    .tech-gif{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        height: 100px;
+        margin: 30px 30px;
+        gap: 5px;
+
+    }   
+    .proj-sample{
+        height: 240px;
+        width: 350px;
     }
 }

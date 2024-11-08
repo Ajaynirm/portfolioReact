@@ -4,8 +4,8 @@ const Skill = () => {
   return (
     <>
      <header>
-        <div>Explore My</div>
-        <div>Experience</div>
+        <div className='title'>Explore My</div>
+        <div className='sub_title'>Experience</div>
      </header>
 
      <div className='container'>

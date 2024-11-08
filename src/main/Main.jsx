@@ -7,7 +7,9 @@ const Main = () => {
     <>
         <div className="main">
             <div className='pic'>
-                profile image
+                <div>
+                    <img src="./public/prof2.png" alt="pic" className='prof-pic'/>
+                </div>
             </div>
             <div className='pic_title'>
                 <div>Hello I'm</div>
@@ -18,9 +20,15 @@ const Main = () => {
                     <button className='main-btn'>contact info</button>
                 </div>
                 <div className='icon-container'>
-                    <div>leetcode</div>
-                    <div>github</div>
-                    <div>linkedin</div>
+                    <div>
+                        <img src="./public/leetc.gif" alt="leetcode"   onclick="location.href='https://leetcode.com/u/ajaysam397/'" className='icon'/>
+                    </div>
+                    <div>
+                        <img src="./public/Github.gif" alt="github" onclick="location.href='https://github.com/Ajaynirm'" className='icon' />      
+                    </div>
+                    <div>
+                        <img src="./public/linkedin.png" alt="linkedin"  onclick="location.href='https://linkedin.com/in/ajay-c-06465821a'" className='icon' />
+                    </div>
                 </div>
             </div>
         </div>
