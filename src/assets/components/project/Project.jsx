@@ -26,10 +26,10 @@ const Project = () => {
               <div>Tech stack</div>
               <div className='live-demo'>
                   <div>
-                    <button>Github</button>
+                    <button className='main-btn'> Github</button>
                   </div>
                   <div>
-                    <button>Live Demo</button>
+                    <button className='main-btn'>Live Demo</button>
                     </div>
               </div>
           </div>

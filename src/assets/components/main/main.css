@@ -87,3 +87,16 @@
 .large-text{
   font-size: 2rem;
 }
+
+
+@media screen and (min-width: 1000px) {
+    
+}
+ /* tablet */
+ @media screen and (max-width: 1000px) {
+
+ }
+
+ @media screen and (max-width: 600px) {
+
+ }
