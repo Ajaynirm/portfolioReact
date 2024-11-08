@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import NavBar from './assets/components/NavBar';
-import Main from './assets/components/main/Main';
-import AboutSection from './assets/components/About/AboutSection';
-import Skill from './assets/components/skills/Skill'
-import Project from './assets/components/project/Project';
-import Contact from './assets/components/contact/Contact';
+import NavBar from './src/NavBar';
+import Main from './src/main/Main';
+import AboutSection from './src/About/AboutSection';
+import Skill from './src/skills/Skill'
+import Project from './src/project/Project';
+import Contact from './src/contact/Contact';
 
 
 function App() {
