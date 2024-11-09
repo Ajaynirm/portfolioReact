@@ -1,0 +1,29 @@
+.joke-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    height: 360px;
+    gap: 5px;
+    /* background-color: aqua; */
+}
+.joke-container2{
+    display: flex;
+    height: 180px;
+    width: 320px;
+    padding: 10px;
+    /* background-color:blue; */
+    align-items: center;
+    justify-content: center;
+}
+.joke-text{
+    text-align: center;
+    font-family: monospace;
+    font-weight: bold;
+}
+.joke-change-btn{
+    border: 1px solid gray;
+    height: 30px;
+    width: 100px;
+}
