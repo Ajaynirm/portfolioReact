@@ -13,7 +13,7 @@ const Main = () => {
             </div>
             <div className='pic_title'>
                 <div>Hello I'm</div>
-                <div className='name'>Ajay C</div>
+                <div className='name'>Ajay </div>
                 <div>a Fullstack Developer</div>
                 <div className='main-btn-container'>
                     <button className='main-btn'>Download cv</button>

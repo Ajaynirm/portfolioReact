@@ -3,6 +3,8 @@
   color: var(--body_color);
   scroll-behavior: smooth;
   margin: 0px;
+  font-family: monospace;
+  font-weight: bold;
 }
 .app{
   display: flex;
