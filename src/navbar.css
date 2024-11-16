@@ -1,5 +1,5 @@
 /* laptop and desktop */
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 3000px) {
    
     .nav_container{
         position: fixed;
