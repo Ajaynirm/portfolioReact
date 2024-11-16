@@ -16,7 +16,7 @@ const Project = () => {
 
        <div className='proj-container'>
           <div className='proj-image'>
-            <img src="./public/accord.jpg" alt="xyz" className='proj-sample'/>
+            <img src="./accord.jpg" alt="xyz" className='proj-sample'/>
           </div>
           <div className='sub-container'>
               <div>title</div>
@@ -26,13 +26,13 @@ const Project = () => {
               <div >Tech stack</div>
               <div className='tech-gif'>
                   <div>
-                      <img src="./public/React.gif" alt="abc" className='icon'/>
+                      <img src="./React.gif" alt="abc" className='icon'/>
                   </div>
                   <div>
-                      <img src="./public/javascript.gif" alt="abc" className='icon'/>
+                      <img src="./javascript.gif" alt="abc" className='icon'/>
                   </div>
                   <div>
-                      <img src="./public/Css.gif" alt="abc" className='icon'/>
+                      <img src="./Css.gif" alt="abc" className='icon'/>
                   </div>
               </div>
 

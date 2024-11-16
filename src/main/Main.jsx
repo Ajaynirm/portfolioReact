@@ -8,7 +8,7 @@ const Main = () => {
         <div className="main">
             <div className=''>
                 <div>
-                    <img src="./public/prof2.png" alt="pic" className='prof-pic'/>
+                    <img src="./prof2.png" alt="pic" className='prof-pic'/>
                 </div>
             </div>
             <div className='pic_title'>
@@ -21,13 +21,13 @@ const Main = () => {
                 </div>
                 <div className='icon-container'>
                     <div>
-                        <img src="./public/leetc.gif" alt="leetcode"   onclick="location.href='https://leetcode.com/u/ajaysam397/'" className='icon'/>
+                        <img src="./leetc.gif" alt="leetcode"   onclick="location.href='https://leetcode.com/u/ajaysam397/'" className='icon'/>
                     </div>
                     <div>
-                        <img src="./public/Github.gif" alt="github" onclick="location.href='https://github.com/Ajaynirm'" className='icon' />      
+                        <img src="./Github.gif" alt="github" onclick="location.href='https://github.com/Ajaynirm'" className='icon' />      
                     </div>
                     <div>
-                        <img src="./public/linkedin.png" alt="linkedin"  onclick="location.href='https://linkedin.com/in/ajay-c-06465821a'" className='icon' />
+                        <img src="./linkedin.png" alt="linkedin"  onclick="location.href='https://linkedin.com/in/ajay-c-06465821a'" className='icon' />
                     </div>
                 </div>
             </div>
