@@ -3,9 +3,14 @@
   color: var(--body_color);
   scroll-behavior: smooth;
   margin: 0px;
-  font-family: monospace;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
+  /* background-Image: url('./public/backg.avif'); */
+  /* background-size: cover; */
+  /* background-position: center; */
+
 }
+
 .app{
   display: flex;
   flex-direction: column;

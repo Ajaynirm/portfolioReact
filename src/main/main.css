@@ -64,17 +64,12 @@
         font-size: 3rem;
         font-style: italic;
         font-weight: bolder;
-        transition: 0.3s;
         height: 150px;
         width: 150px;
         text-align: center;
-        /* border: 0.1px solid gray; */
-        border-radius: 10px;
+      
     }
     
-    .name:hover{
-      box-shadow: 0 0 20px #3498db;
-    }
     .icon-container{
         display: flex;
         height: 60px;
@@ -92,16 +87,14 @@
     }
     .icon{
         cursor: pointer;
-        height: 4rem;
-        transition: 0.3s;
+        height: 3rem;
     }
-    .icon:hover{
-        height: 5rem;
-    }
+  
     .prof-pic{
         height: 300px;
         width: 300px;
-        border-radius: 50%;
+        border-radius: 10%;
+        background-color: aqua;
     }
 }
  /* tablet */
@@ -192,9 +185,9 @@
         height: 4rem;
     }
     .prof-pic{
-        height: 200px;
-        width: 200px;
-        border-radius: 50%;
+        height: 250px;
+        width: 250px;
+        border-radius: 10%;
     }
  }
 
@@ -259,7 +252,7 @@
         font-size: 3rem;
         font-style: italic;
         font-weight: bolder;
-        transition: 0.3s;
+   
         height: 100px;
         width: 170px;
         text-align: center;
@@ -267,9 +260,6 @@
         border-radius: 10px;
     }
     
-    .name:hover{
-      box-shadow: 0 0 30px #3498db;
-    }
     .icon-container{
         display: flex;
         height: 60px;
@@ -290,6 +280,6 @@
     .prof-pic{
         height: 200px;
         width: 200px;
-        border-radius: 50%;
+        border-radius: 10%;
     }
  }

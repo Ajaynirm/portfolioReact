@@ -2,13 +2,15 @@ import React from 'react';
 import "./main.css";
 
 
+
 const Main = () => {
   return (
     <>
         <div className="main">
             <div className=''>
                 <div>
-                    <img src="./prof2.png" alt="pic" className='prof-pic'/>
+                    <img src="./anime3.jpg" alt="pic" className='prof-pic'/>
+                    
                 </div>
             </div>
             <div className='pic_title'>
