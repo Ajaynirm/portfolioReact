@@ -13,7 +13,7 @@
         align-items: center;
        
         flex-wrap: nowrap;
-       
+        color: blue;
         padding: 20px;
         /* z-index: 1000; */
         /* box-sizing: border-box; */
@@ -23,6 +23,7 @@
         flex: 0.4;
         text-align: center;
         font-size:x-large;
+        color: #3498db;
     }
     .nav_links{
         display: flex;
@@ -59,6 +60,7 @@
     }
     a{
         text-decoration: none;
+        color: #3498db;
     }
     a:hover{
         color: gray;
@@ -67,7 +69,7 @@
     }
   }
   /* tablet */
-  @media screen and (max-width: 900px) and (min-width: 600px) {
+  @media screen and (max-width: 900px) and (min-width: 700px) {
     .nav_container{
         height: 70px;
         display: flex;
@@ -116,7 +118,7 @@
     }
   }
   /* mobile */
-  @media screen and (max-width: 599px) {
+  @media screen and (max-width: 699px) {
     .nav_container{
         height: 30px;
         display: flex;
@@ -126,7 +128,7 @@
          font-size: 30px;
         /* padding: 10px;  */
         position: fixed;
-        /* background-color: aqua; */
+        background-color: aqua;
     }
 
     .logo{

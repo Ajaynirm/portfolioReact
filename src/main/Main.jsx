@@ -9,27 +9,27 @@ const Main = () => {
         <div className="main">
             <div className=''>
                 <div>
-                    <img src="./anime3.jpg" alt="pic" className='prof-pic'/>
+                    <img src="./ninjaprof_11zon.jpg" alt="pic" className='prof-pic'/>
                     
                 </div>
             </div>
             <div className='pic_title'>
                 <div>Hello I'm</div>
                 <div className='name'>Ajay </div>
-                <div>a Fullstack Developer</div>
+                <div> Fullstack Developer</div>
                 <div className='main-btn-container'>
-                    <button className='main-btn'>Download cv</button>
-                    <button className='main-btn'>contact info</button>
+                    <button className='main-btn1'>Download cv</button>
+                    <button className='main-btn1'>contact info</button>
                 </div>
                 <div className='icon-container'>
                     <div>
-                        <img src="./leetc.gif" alt="leetcode"   onclick="location.href='https://leetcode.com/u/ajaysam397/'" className='icon'/>
+                        <img src="./leetc.gif" alt="leetcode"   onClick={() => window.location.href="https://leetcode.com/u/ajaysam397/"} className='icon'/>
                     </div>
                     <div>
-                        <img src="./Github.gif" alt="github" onclick="location.href='https://github.com/Ajaynirm'" className='icon' />      
+                        <img src="./Github.gif" alt="github" onClick={() => window.location.href="https://github.com/Ajaynirm"}  className='icon' />      
                     </div>
                     <div>
-                        <img src="./linkedin.png" alt="linkedin"  onclick="location.href='https://linkedin.com/in/ajay-c-06465821a'" className='icon' />
+                        <img src="./linkedin.png" alt="linkedin" onClick={() => window.location.href="https://linkedin.com/in/ajay-c-06465821a"}  className='icon' />
                     </div>
                 </div>
             </div>

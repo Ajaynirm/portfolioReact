@@ -23,7 +23,11 @@ const AboutSection = () => {
                <div className='educat glow'>
                    <div>
                     Education</div>
-                   <div>B.E Computer Science <br />and Engineering</div>
+                    <div>
+                    <div>B.E Computer Science</div>
+                    <div>and Engineering</div>
+                    </div>
+                  
                </div>
               
             </div>

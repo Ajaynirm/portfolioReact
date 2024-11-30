@@ -57,6 +57,7 @@
     width: 280px;
     border-radius: 50px;
     border: 0.5px solid gray;
+    gap: 10px;
 }
 
 .educat{
@@ -68,6 +69,8 @@
     width: 350px;
     border-radius: 50px;
     border: 0.5px solid gray;
+    gap: 10px;
+    text-align: center;
     /* border: 2px solid gray; */
 }
 
@@ -78,7 +81,9 @@
     margin: 10px;
     padding: 20px;
     justify-content: center;
-
+    font-style: italic;
+    font-family: monospace;
+    font-weight: lighter;
     /* border: 2px solid gray; */
 }
 
@@ -101,7 +106,7 @@ header{
 }
 
  /* tablet */
- @media screen and (max-width: 900px) and (min-width: 600px) {
+ @media screen and (max-width: 900px) and (min-width: 700px) {
   .main_container{
     gap: 0px;
     /* background-color: aqua; */
@@ -122,7 +127,7 @@ header{
   }
  }
 
- @media screen and (max-width: 599px) {
+ @media screen and (max-width: 699px) {
     .main_container{
         display: flex;
         height: 1000px;
@@ -205,9 +210,15 @@ header{
         justify-content: center;
         align-items: center;
         text-align: center;
+        font-style: italic;
+        /* font-family: monospace; */
+        font-weight: lighter;
         /* border: 2px solid gray; */
+        transition: 0.5s;
     }
-    
+    .para:hover{
+        box-shadow: 0 0 20px #3498db;
+    }
     header{
         /* display: flex; */
         padding: 30px;
@@ -222,7 +233,7 @@ header{
         transition: 0.3s; /* for the Smoothness transition */
     }
     .glow:hover{
-        box-shadow: 0 0 40px #3498db;
+        box-shadow: 0 0 20px #3498db;
     }
  }
 
