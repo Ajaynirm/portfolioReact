@@ -230,17 +230,16 @@
     .main-btn-container{
         display: flex;
         flex-direction: row;
-        height: 60px;
-        width: 280px;
-        justify-content: space-evenly;
-       /* background-color: aqua; */
+        height: 70px;
+        width: 300px;
+        justify-content: space-between;
         padding: 10px;
         margin-top: 20px;
     }
     .main-btn1{
         border: none;
-        height: 50px;
-        width: 100px;
+        height: 60px;
+        width: 130px;
         border: 0.5px solid gray;
         border-radius: 10px;
         font-size: 1rem;
